@@ -13,7 +13,7 @@ git clone https://github.com/ecoker/sails-simple-db.git
 
 Jump into the project and install the dependencies:
 ```
-cd learn-react && npm install
+cd sails-simple-db && npm install
 ```
 
 Launch the site!
