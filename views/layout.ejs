@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example Database Interactions</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--STYLES-->
+    <%if (settings.env === 'production') { %>
+    <link rel="stylesheet" href="/styles/app/styles.css">
+    <% } %>
+    <!--STYLES END-->
+  </head>
+
+  <body>
+    <%- body %>
+
+    <!--SCRIPTS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sails.io.js/1.1.4/sails.io.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9y4FlV64DW9HKKieSStZta8CE8WfLfz4&libraries=places"></script>
+    <script src="/js/app/bundle.js"></script>
+    <!--SCRIPTS END-->
+  </body>
+</html>
