@@ -28,9 +28,11 @@ Want to see some API responses? Try these:
 - [All Homes](http://localhost:1337/homes)
 - [One Home](http://localhost:1337/homes/2)
 
-Full CRUD is supported on those endpoints. Take a look at the models for more information:
-[Customer Model](api/models/Customer.js)
-[Home Model](api/models/Home.js)
+You can look at how the specific models are set up here:
+- [Customer Model](api/models/Customer.js)
+- [Home Model](api/models/Home.js)
+
+Assuming you didn't disable it, you have a bunch of *Blueprint Actions* available to you when you create controllers/models in sails. Checkout the [documentation](http://sailsjs.com/documentation/concepts/blueprints/blueprint-actions)!
 
 Take special notice of the syntax that binds these models together:
 
