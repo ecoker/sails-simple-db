@@ -22,11 +22,11 @@ sails lift
 ```
 
 Want to see some API responses? Try these:
-[All Customers](http://localhost:1337/customers)
-[One Customer](http://localhost:1337/customers/1)
-[All Customer Homes](http://localhost:1337/customers/1/homes)
-[All Homes](http://localhost:1337/homes)
-[One Home](http://localhost:1337/homes/2)
+- [All Customers](http://localhost:1337/customers)
+- [One Customer](http://localhost:1337/customers/1)
+- [All Customer Homes](http://localhost:1337/customers/1/homes)
+- [All Homes](http://localhost:1337/homes)
+- [One Home](http://localhost:1337/homes/2)
 
 Full CRUD is supported on those endpoints. Take a look at the models for more information:
 [Customer Model](api/models/Customer.js)
